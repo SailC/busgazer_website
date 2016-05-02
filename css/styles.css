@@ -24,7 +24,7 @@ body {
 hr {
     max-width: 80px;
     border-width: 3px;
-/*    opacity: 0.09;*/
+    /*    opacity: 0.09;*/
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -179,15 +179,16 @@ footer {
     background-color: transparent;
 }
 
+.navbar-header > .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
         background-color: transparent;
         min-height: 60px;
-    }
-    .navbar-header > .navbar-brand {
-        color: rgba(255, 255, 255, 0.7);
-        padding: 10px;
     }
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
@@ -198,7 +199,7 @@ footer {
         color: gray;
         padding: 20px;
         letter-spacing: 1.1px;
-/*        text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7);*/
+        /*        text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7);*/
     }
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
@@ -221,7 +222,7 @@ footer {
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
         color: #ddd;
-/*        text-shadow: 1px 1px 1px rgba(30, 30, 30, 0.7);*/
+        /*        text-shadow: 1px 1px 1px rgba(30, 30, 30, 0.7);*/
     }
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
@@ -583,7 +584,8 @@ section.app-badges {
 }
 
 #zero,
-#zero-2, #zero-4{
+#zero-2,
+#zero-4 {
     background-color: white;
 }
 
