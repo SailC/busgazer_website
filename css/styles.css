@@ -186,6 +186,13 @@ footer {
     padding: 10px;
 }
 
+@media(max-width:768px) {
+    .navbar-default .navbar-toggle,
+    .navbar-default .navbar-collapse {
+        margin-top: 13px;
+    }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
