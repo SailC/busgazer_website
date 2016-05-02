@@ -137,7 +137,9 @@ footer {
 }
 
 .navbar-default .navbar-text {
-    color: gray;
+    color: #4266AB;
+    font-weight: bolder;
+    font-size: large
 }
 
 .navbar-header > .navbar-brand:hover,
